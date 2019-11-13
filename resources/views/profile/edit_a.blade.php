@@ -1,4 +1,4 @@
-@extends('layouts.app_u', [
+@extends('layouts.app', [
     'class' => 'sidebar-mini ',
     'namePage' => 'User Profile',
     'activePage' => 'profile',

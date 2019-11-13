@@ -19,7 +19,7 @@ Auth::routes();
 Route::get('/admin', 'AdminController@index');
 Route::get('/log', 'MemberController@index');
 
-Route::get('/user_u', 'Homecontroller@user_u')->name('user_u')->name('user_u');
+Route::get('/user_u', 'Homecontroller@user_u')->name('user_u');
 Route::post('/notifications', 'HomeController@notifications')->name('notifications');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/sensor', 'HomeController@sensor')->name('sensor');
@@ -29,7 +29,7 @@ Route::post('/fms_log', 'HomeController@fms_log')->name('fms_log');
 
 
 
-Route::get('/user_a', 'Homecontroller@user_a')->name('user_a')->name('user_a');
+Route::get('/user_a', 'Homecontroller@user_a')->name('user_a');
 Route::post('/notifications_a', 'HomeController@notifications_a')->name('notifications_a');
 Route::get('/home_a', 'HomeController@index_a')->name('home_a');
 Route::get('/sensor_a', 'HomeController@sensor_a')->name('sensor_a');
